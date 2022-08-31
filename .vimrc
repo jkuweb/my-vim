@@ -60,9 +60,6 @@ set t_Co=256
 highlight ColorColumn ctermbg=magenta
 call matchadd('ColorColumn', '\%81v', 100)
 
-"shady characters 
-exec "set listchars=tab:\uBB\uBB,trail:\uB7,nbsp:."
-set list
 
 " Instrucciones exclusivas para PHP
 autocmd FileType php set omnifunc=phpcomplete#CompletePHP
